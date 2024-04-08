@@ -6,7 +6,7 @@ install nx
 
 ```npm i -g nx```
 
-(if nx is not installed globally use npx instead nx in below commands)
+(if nx is not installed globally use npx nx instead nx in below commands)
 
 
 Clone the project
@@ -22,7 +22,7 @@ cd guntur/schools
 checkout to current development branch
 
 ```
-git checkout version1.0.0
+git checkout develop
 ```
  do install node_modules
  ```
@@ -33,6 +33,30 @@ To run the mobile app run this
 nx serve mobile
 ```
 it will run on port number 4200 by befault , can be change via passing --port = number
+
+***
+
+To add android folder to mobile app
+
+build mobile using 
+
+``` npx nx build mobile  ```
+
+add packages in apps/mobile 
+``` npm install @capacitor/core @capacitor/cli ```
+
+``` 
+npx cap add android
+```
+
+again build , then
+
+```
+npx cap copy
+ ```
+
+ open android folder in android studio and build
+
 
 ***
 
