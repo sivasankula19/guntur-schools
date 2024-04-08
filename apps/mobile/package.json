@@ -1,8 +1,11 @@
 {
   "name": "mobile",
   "devDependencies": {
-    "@capacitor/cli": "^5.0.3",
-    "@capacitor/ios": "../../node_modules/@capacitor/ios",
-    "@capacitor/android": "../../node_modules/@capacitor/android"
+    "@capacitor/android": "../../node_modules/@capacitor/android",
+    "@capacitor/cli": "^5.7.4",
+    "@capacitor/ios": "../../node_modules/@capacitor/ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^5.7.4"
   }
 }

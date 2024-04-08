@@ -5,7 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
-    "@capacitor/core": "^5.0.3",
+    "@capacitor/core": "^5.7.4",
     "@capacitor/haptics": "5.0.2",
     "@capacitor/keyboard": "5.0.2",
     "@capacitor/status-bar": "5.0.2",
@@ -33,7 +33,7 @@
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "@capacitor/android": "^5.0.3",
-    "@capacitor/cli": "^5.0.3",
+    "@capacitor/cli": "^5.7.4",
     "@capacitor/ios": "^5.0.3",
     "@nrwl/vite": "^18.2.1",
     "@nx/cypress": "18.2.1",
